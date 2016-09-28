@@ -1,0 +1,5 @@
+D:\Git\fagdag\FagdagDotNet\FagdagDotNet\bin\Debug\FagdagDotNet.dll
+D:\Git\fagdag\FagdagDotNet\FagdagDotNet\bin\Debug\FagdagDotNet.pdb
+D:\Git\fagdag\FagdagDotNet\FagdagDotNet\obj\Debug\FagdagDotNet.dll
+D:\Git\fagdag\FagdagDotNet\FagdagDotNet\obj\Debug\FagdagDotNet.pdb
+D:\Git\fagdag\FagdagDotNet\FagdagDotNet\obj\Debug\FagdagDotNet.csprojResolveAssemblyReference.cache

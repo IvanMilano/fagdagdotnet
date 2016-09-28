@@ -1,0 +1,5 @@
+TradeProcessor is small class that reads records from a file and updates a database. Looking at the class, it is clear that the class holds to many responsibilities, as well as the methods. The class violates the Single Responsibility Principle. Your task is refactor the class so it is more adaptive to changes and modification and does not violate the SRP. 
+
+1. The first task is to identify the main responsibilities in the class. (No coding required)
+
+2. When you have identified the main responsibilities, refactor the code by splitting into smaller pieces. For now the smaller pieces can be private methods within the same class. In other word you should refactor for clarity.

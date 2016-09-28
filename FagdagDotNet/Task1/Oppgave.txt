@@ -1,0 +1,5 @@
+Nettbutikken som har blitt ansatt i går plutselig veldig bra slik at din sjef ønsker å inngå avtale med PostenNorge om levering. Han ber deg derfor om å implementere funksjonalitet som ivaretar utregning av leveringskostnad. Men din sjef er også en tidligere utvikler og er veldig opptatt av at kodebasen følger gode prinsipper innen utvikling. Han har også sett at nåværende implementasjon bryter med OC prinsippet og ber deg utbedre dette ved å bruke Strategy pattern, før du implemnterer 
+
+1. Opprett IShippingStrategy som andra arver fra
+2. Inject IShippingStrategy i ctor'en i "CostCalculationService"
+3. Utvide med utregning for PostenNorge

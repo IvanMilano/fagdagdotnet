@@ -1,0 +1,17 @@
+Now, after you have refactored the class. it is clear improvment on the original implementation; the code is more readable, but you have gained very little by way of adaptebility. Whatever changes you have to do the TradeProcessor class will violate OC principle, which you should aim to avoid. The next step then is to split each responsibility into different classes and place them behind interfaces; refactoring for abstraction.
+
+1. The first step is to identify the 3 interfaces that will be injected into the TradeProcessor class. TradeProcessor class should have 1 method; ProcessTrades() that performs the main steps identified earlier. In other word it should no longer contain the implementation details for the whole process but intsted contain the blueprint for the process.
+
+2. Write the concrete classes that implement the identified interfaces
+
+3. One of the classes should inject ITradeMapper
+
+4. Two of the concrete implementations logs some output. Instead of using your own, rather poor implementation of "Console" logging you have discovered the almighty log4net. Introduce an adapter / wrapper class that implements:
+	- ILogger interface
+	- ILogger have 3 methods:
+		- LogWarning
+		- LogInfo
+		- LogRrror
+The adapter / wrapper class should make use of Log4Net, so download it from Nuget
+
+5. You are done, and can go home
